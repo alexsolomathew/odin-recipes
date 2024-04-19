@@ -1,10 +1,17 @@
-h1{
- color:rgb(250, 6, 18);
+*{
+    background-color: rgb(255, 255, 169);
+} 
+    
+ h1{
+ color:rgb(68, 3, 6);
  background-color: rgb(198, 245, 28);
  font-size: 200px;
  text-align: center;
  font-weight: 800;
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ margin: 150px 40px;
+ padding: 20px auto;
+ border:20px solid rgb(240, 82, 9);
 }
 a{
     font-size: 40px;
@@ -15,10 +22,32 @@ p{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+    margin: 20px 500px 20px;
 }
 h2{
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    padding: 30px;
+}
+button{
+    background-color: rgb(184, 184, 241);
+    font-size: 30px;
+
+}
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        border: 5px double rgb(126, 9, 9);
+    
+      }
+li{
+    font-size: 28px;
+    margin:  20px 500px 20px;
+    
 }
